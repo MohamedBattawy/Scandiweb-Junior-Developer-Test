@@ -1,0 +1,50 @@
+/* General container styling */
+.container {
+  padding: 20px;
+}
+
+/* Styling for buttons in the header */
+.header-right button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.header-right .btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.header-right .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.header-right .btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.header-right .btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Additions for product grid and cards */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card {
+  flex: 0 1 calc(33.333% - 20px); /* Adjust the width for three cards per row */
+  box-sizing: border-box;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+}

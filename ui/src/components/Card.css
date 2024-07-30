@@ -1,0 +1,14 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.delete-checkbox {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
