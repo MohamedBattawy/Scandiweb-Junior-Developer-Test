@@ -1,4 +1,4 @@
-# Scandi
+# Scandiweb
  
 Scandiweb's Junior Web Developer Test Assessment.
 
